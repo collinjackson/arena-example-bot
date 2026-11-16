@@ -2,7 +2,7 @@
 
 An example [libaw-arena](https://github.com/collinjackson/libaw-arena) bot, made from the arena's
 [bot template](https://github.com/collinjackson/libaw-arena/tree/main/templates/bot): it attacks
-when it can, else captures, else builds, else takes the first legal action.
+when it can, else captures, else builds, else takes libaw's baseline pick.
 
     rustup target add wasm32-unknown-unknown
     cargo build --release --target wasm32-unknown-unknown
